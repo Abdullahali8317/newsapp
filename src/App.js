@@ -30,7 +30,7 @@ const App =()=> {
        
       />
           <Routes>
-            <Route exact strict  path="/"element={<News setProgress={setProgress}   key="general" pageSize={pageSize} country="in" category="general" />}></Route>
+            <Route exact strict  path="/newsapp"element={<News setProgress={setProgress}   key="general" pageSize={pageSize} country="in" category="general" />}></Route>
             <Route exact strict path="/business"element={<News setProgress={setProgress}   key="business" pageSize={pageSize} country="in" category="business" />}></Route>
             <Route exact strict path="/entertainment"element={<News setProgress={setProgress}  key="entertainment"  pageSize={pageSize} country="in" category="entertainment" />}></Route>
             <Route exact strict path="/general"element={<News setProgress={setProgress}   key="general"  pageSize={pageSize} country="in" category="general" />}></Route>
